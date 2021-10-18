@@ -1,5 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
-
+@font-face {
+    font-family: Montserrat;
+    src: url('/font/Montserrat/Montserrat-Regular.ttf');
+}
 [data-xdgbtn-address] {
 	font-size: 14px;
 	white-space: nowrap;
@@ -56,7 +58,7 @@
 }
 
 [data-xdgbtn-address] > div span:nth-child(1)::before {
-	content: 'Copied !'
+	content: 'Copied!'
 }
 
 [data-xdgbtn-address] .xdgbtn-symbol {
